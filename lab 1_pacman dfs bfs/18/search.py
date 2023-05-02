@@ -101,7 +101,7 @@ def depthFirstSearch(problem):
         state=n[0]
         dir = n[1]       
         color[state] = dir
-        
+                                                    
         if problem.isGoalState(state):
             sol = state
             #c = True
